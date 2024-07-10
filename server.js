@@ -8,10 +8,10 @@ const port = 3001;
 app.use(cors());
 
 const pool = new Pool({
-    user: 'fernandezf',
-    host:'172.5.5.81',
-    database: 'inaes',
-    password: 'Inaes2024.07',
+    user: '',
+    host:'',
+    database: '',
+    password: '',
     port: 5432, 
 });
 
